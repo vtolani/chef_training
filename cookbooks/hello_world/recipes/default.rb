@@ -6,4 +6,4 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-log "Hello World!"
+log "can you hear me now?!"
