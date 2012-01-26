@@ -22,7 +22,7 @@ log "begin recipe"
 
 package "tmux"
 
-if node [:platform] == 'centos'
+if node[:platform] == 'centos'
   log "This is a centos box"
 elsif node [:platform] == 'ubuntu'
   log "This is an ubuntu box"
