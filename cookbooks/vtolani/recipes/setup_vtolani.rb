@@ -18,7 +18,7 @@ log "We would have installed #{package_name} if we provided that variable to a p
 log "begin recipe"
 ::Chef::Log.info("info")
 ::Chef::Log.warn("warn")
-::Chef:Log.debug("debug")
+::Chef::Log.debug("debug")
 
 package "tmux"
 
